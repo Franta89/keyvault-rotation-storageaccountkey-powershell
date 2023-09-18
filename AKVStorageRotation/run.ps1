@@ -1,5 +1,7 @@
 param($eventGridEvent, $TriggerMetadata)
 
+Write-Output "Hello World!"
+
 function RegenerateKey($keyId, $providerAddress){
     Write-Host "Regenerating key. Id: $keyId Resource Id: $providerAddress"
     
